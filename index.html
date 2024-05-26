@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Videojuegos más vendidos - Comunidad</title>
-    <link rel="icon" href="icono_videojuegos.png" sizes="32x32" type="png">
+    <link rel="icon" href="icono_videojuegos.png" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="styles.css">
 </head>
     
@@ -20,7 +20,7 @@
     <ul>
         <li><a href="https://armaddox.github.io/videojuegos_paginaprincipal/">Página Principal</a></li>
         <li><a href="https://armaddox.github.io/videojuegos_trivia/">Trivia</a></li>
-        <li><a href="https://armaddox.github.io/videojuegos_paginaprincipal/">Fotos y Videos</a></li>
+        <li><a href="#fotos-y-videos">Fotos y Videos</a></li>
         <li><a href="https://armaddox.github.io/videojuegos_comunidad/">Comunidad</a></li>
         <li><a href="https://armaddox.github.io/videojuegos_contacto/">Contacto</a></li>
     </ul>
@@ -41,7 +41,7 @@
             </div>
             <div class="comment">
                 <strong>Juan</strong> - 10 - Mayo - 2024<br>
-                 La verdad la vez que lo juegue con mis amigos fue un caos pero muy divertido. 
+                La verdad la vez que lo juegue con mis amigos fue un caos pero muy divertido. 
             </div>
             <textarea placeholder="Escribe tu comentario aquí..."></textarea>
             <button>Comentar</button>
@@ -67,9 +67,12 @@
 
     <div class="post">
         <h2>Deja tu post!!</h2>
-        <input type="text" placeholder="Título">
-        <input type="text" placeholder="Subtítulo">
-        <textarea placeholder="Escribe tu publicación aquí..."></textarea>
+        <label for="title">Título</label>
+        <input type="text" id="title" placeholder="Título">
+        <label for="subtitle">Subtítulo</label>
+        <input type="text" id="subtitle" placeholder="Subtítulo">
+        <label for="post-content">Publicación</label>
+        <textarea id="post-content" placeholder="Escribe tu publicación aquí..."></textarea>
         <button>Publicar</button>
     </div>
 </section>
