@@ -5,5 +5,6 @@ function updateTime() {
 
     document.getElementById("header-info").innerText = "Fecha y hora actual: " + formattedDate;
 }
+
 setInterval(updateTime, 1000);
 updateTime();
