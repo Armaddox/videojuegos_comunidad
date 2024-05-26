@@ -20,6 +20,16 @@ header h1 {
     padding: 20px;
 }
 
+.header-info {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
 header img {
     width: 100%;
 }
